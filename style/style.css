@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header__div h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header__div h3 {
+  text-align: center;
+  color: #c2c2c2;
+}
+
+.header button {
+  font-size: 16px;
+  background-color: #0f27ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.section__div {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section__div h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.section__div button {
+  background: transparent;
+  border: none;
+  font-size: 32px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.section__div button:hover {
+  transform: scale(1.3);
+}
+
+.main__ul li {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  overflow-x: scroll;
+  padding: 5px 0;
+}
+
+.main__ul li input {
+  accent-color: #2ba315;
+}
+
+.main__ul li p {
+  min-width: 165px;
+  margin-left: 6px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 45%;
+}
+
+.main__ul li p:nth-child(3) {
+  text-align: right;
+}
+
+.main__ul li button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.main__ul li button:hover {
+  transform: scale(1.3);
+}
+/* min width a partir de tal tamanho */
+
+/* max-width antes de tal tamanho */
+@media (min-width: 425px) {
+  .main__ul li {
+    overflow-x: hidden;
+  }
+}
