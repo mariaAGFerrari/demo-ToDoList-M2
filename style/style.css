@@ -1,3 +1,7 @@
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -83,6 +87,9 @@
 
 .main__ul li button:hover {
   transform: scale(1.3);
+}
+.tracejado {
+  text-decoration: line-through;
 }
 /* min width a partir de tal tamanho */
 

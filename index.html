@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
     <title>To Do List</title>
   </head>
@@ -12,7 +15,7 @@
     <header class="header">
       <div class="header__div">
         <h1>To Do List</h1>
-        <h3>Data exemplo</h3>
+        <h3 id="dataToDoList">Data exemplo</h3>
       </div>
       <button>Criar Categoria</button>
     </header>
@@ -22,8 +25,8 @@
             <h2>Bem Estar</h2>
             <button>+</button>
         </div>
-        <ul class="main__ul">
-          <li>
+        <ul class="main__ul" id="bem-estar">
+          <!-- <li>
             <input type="checkbox"></input>
             <p>Mais um To do item</p>
             <p>Data de criação do To do</p>
@@ -40,16 +43,17 @@
             <p>Mais um To do item</p>
             <p>Data de criação do To do</p>
             <button> <img src="./img/trash-alt.png" alt="Lixeira"> </button>
-          </li>
+          </li> -->
         </ul>
       </section>
+
       <section class="section">
         <div class="section__div">
             <h2>Trabalho</h2>
             <button>+</button>
         </div>
-        <ul class="main__ul">
-          <li>
+        <ul class="main__ul" id="trabalho">
+          <!-- <li>
             <input type="checkbox"></input>
             <p>Mais um To do item Mais um item mais um item Mais um item mais um item</p>
             <p>Data de criação do To do</p>
@@ -66,16 +70,17 @@
             <p>Mais um To do item Mais um item mais um item Mais um item mais um item</p>
             <p>Data de criação do To do</p>
             <button> <img src="./img/trash-alt.png" alt="Lixeira"> </button>
-          </li>
+          </li> -->
         </ul>
       </section>
+
       <section class="section">
         <div class="section__div">
             <h2>Esporte</h2>
             <button>+</button>
         </div>
-        <ul class="main__ul">
-          <li>
+        <ul class="main__ul" id="esporte">
+          <!-- <li>
             <input type="checkbox"></input>
             <p>Mais um To do item</p>
             <p>Data de criação do To do</p>
@@ -92,9 +97,11 @@
             <p>Mais um To do item</p>
             <p>Data de criação do To do</p>
             <button> <img src="./img/trash-alt.png" alt="Lixeira"> </button>
-          </li>
+          </li> -->
         </ul>
       </section>
     </main>
+    <script src="./js/database.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
